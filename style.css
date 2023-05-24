@@ -1,0 +1,317 @@
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!=============MOBILE MENU===============
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+.mobile_menu_bar:before {
+	color: #000!important;
+}
+.et_mobile_menu {
+	border-top: 3px solid #000!important;
+}
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!=============MOBILE MENU===============
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+
+#top-menu li.guides:before {
+	content:'ˇ';
+	color: #000;
+	position: absolute;
+	top:6px;
+	left:65px;
+}
+
+
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!=====TOP MENU UNDERLINE ANIMATION======
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+#top-menu li.menu-item:first-child>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu li.menu-item:first-child>a:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	top:17.5px;
+	left:0;
+	background-color:#000;transform-origin:top right;
+	transition:transform .3s ease-out
+}
+#top-menu li.menu-item:first-child>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+#top-menu li.menu-item:nth-child(2)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu li.menu-item:nth-child(2)>a:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	top:17.5px;
+	left:0;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu li.menu-item:nth-child(2)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+#top-menu li.menu-item:nth-child(3)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu li.menu-item:nth-child(3)>a:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	top:17.5px;
+	left:0;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu li.menu-item:nth-child(3)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+#top-menu li.menu-item:nth-child(4)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu li.menu-item:nth-child(4)>a:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	top:17.5px;
+	left:0;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu li.menu-item:nth-child(4)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+#top-menu li.menu-item:nth-child(5)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu li.menu-item:nth-child(5)>a:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	top:17.5px;
+	left:0;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu li.menu-item:nth-child(5)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+
+
+#top-menu  ul.sub-menu>.menu-item:first-child>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu  ul.sub-menu>.menu-item:first-child>a:after{
+	content:'';
+	position:absolute;
+	width:99px;
+	transform:scaleX(0);
+	height:2px;
+	top:31px;
+	left:20px;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu  ul.sub-menu>.menu-item:first-child>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+
+#top-menu  ul.sub-menu>.menu-item:nth-child(2)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu  ul.sub-menu>.menu-item:nth-child(2)>a:after{
+	content:'';
+	position:absolute;
+	width:42px;
+	transform:scaleX(0);
+	height:2px;
+	top:31px;
+	left:20px;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu  ul.sub-menu>.menu-item:nth-child(2)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+
+#top-menu  ul.sub-menu>.menu-item:nth-child(3)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu  ul.sub-menu>.menu-item:nth-child(3)>a:after{
+	content:'';
+	position:absolute;
+	width:114px;
+	transform:scaleX(0);
+	height:2px;
+	top:31px;
+	left:20px;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu  ul.sub-menu>.menu-item:nth-child(3)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+
+#top-menu  ul.sub-menu>.menu-item:nth-child(4)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu  ul.sub-menu>.menu-item:nth-child(4)>a:after{
+	content:'';
+	position:absolute;
+	width:75px;
+	transform:scaleX(0);
+	height:2px;
+	top:31px;
+	left:20px;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu  ul.sub-menu>.menu-item:nth-child(4)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+
+
+
+#top-menu  ul.sub-menu>.menu-item:nth-child(5)>a:after a{display:inline-block;position:relative;color:#000;text-decoration:none}
+#top-menu  ul.sub-menu>.menu-item:nth-child(5)>a:after{
+	content:'';
+	position:absolute;
+	width:79px;
+	transform:scaleX(0);
+	height:2px;
+	top:31px;
+	left:20px;
+	background-color:#000;transform-origin:top right;
+	transition:transform .25s ease-out
+}
+#top-menu  ul.sub-menu>.menu-item:nth-child(5)>a:hover:after{transform:scaleX(1);transform-origin:top left}
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!===TOP MENU UNDERLINE ANIMATION END====
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+
+
+
+
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!=======TOP MENU ACTIVE UNDERLINE=======
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+#top-menu li.current-menu-item>a:before {
+   content:"";
+   background: #000;
+   width:100%; 
+   height:2px;
+   position:absolute;
+   left:0; bottom:27px;
+}
+#top-menu ul.sub-menu>.current-menu-item:first-child>a:before {
+   content:"";
+   background: #000;
+   width: 99px; 
+   height:2px;
+   position:absolute;
+   left:20px; top:31px;
+}
+
+#top-menu ul.sub-menu>.current-menu-item:nth-child(2)>a:before {
+   content:"";
+   background: #000; 
+   width: 42px; 
+   height:2px;
+   position:absolute;
+   left:20px; top:31px;
+}
+
+#top-menu ul.sub-menu>.current-menu-item:nth-child(3)>a:before {
+   content:"";
+   background: #000; 
+   width: 114px; 
+   height:2px;
+   position:absolute;
+   left:20px; top:31px;
+}
+
+#top-menu ul.sub-menu>.current-menu-item:nth-child(4)>a:before {
+   content:"";
+   background: #000;
+   width: 75px; 
+   height:2px;
+   position:absolute;
+   left:20px; top:31px;
+}
+
+#top-menu ul.sub-menu>.current-menu-item:nth-child(5)>a:before {
+   content:"";
+   background: #000;
+   width: 79px; 
+   height:2px;
+   position:absolute;
+   left:20px; top:31px;
+}
+/*
+?=======================================  
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+!=====TOP MENU ACTIVE UNDERLINE END=====
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+?=======================================
+*/
+
+#wpforms-submit-1304 {
+	background-color: #000!important;
+	color: #fff!important;
+}
+
+.title-link a:hover {
+	text-decoration: underline #000;
+	text-decoration-thickness: 2px;
+	transition: underline 1s ease-in-out;
+}
+
+
+/* REMOVE GREY BACKGROUNDCOLOR ON SUB-MENU */
+.nav ul li a:hover, .et_mobile_menu li a:hover, .et_mobile_menu .menu-item-has-children {
+	background-color: transparent!important;
+}
+/* STICKY MOBILE MENU */
+.et_fixed_nav #main-header {
+    position: fixed;
+}
